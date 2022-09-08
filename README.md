@@ -1,2 +1,1 @@
-# YATI_Hackathon
-Hackathon repo
+Blog Homepage
