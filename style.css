@@ -2,7 +2,7 @@
  
 html, body{
   margin: 0;
-font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'Nunito', sans-serif;
   padding: 0;
   background: #000;
 }
@@ -10,7 +10,7 @@ footer{
   width: 100%;
   min-height: 300px;
   max-height: auto;
-background-image: linear-gradient(to right top, #161616, #191919, #1b1b1b, #1e1e1e, #212121);
+background-image: linear-gradient(to right top, #474e5d, #474e5d,#474e5d,#474e5d,#474e5d);
   clear: both;
 }
 footer .footer-wrap{
@@ -28,7 +28,7 @@ footer .footer-wrap{
 }
 h4.uppercase{
   text-transform: uppercase;
-  font-family: Arial;
+font-family: 'Playfair Display', serif;
   font-size: 20px;
 }
 ul#footerUsefulLink, ul#footerMediaLinks{
@@ -46,7 +46,31 @@ ul#footerUsefulLink li:hover .usefulLinksIcons, ul#footerUsefulLink li:hover a{
    color: #00CED1;
    /* border-bottom: 1px solid red; */
 }
-ul#footerMediaLinks li:hover span.fb, ul#footerMediaLinks li:hover a.fb { color: #3b5998; }
+.insta{
+  color: white;
+  text-decoration: none;
+}
+.git{
+  color: white;
+  text-decoration: none;
+}
+.twit{
+  color: white;
+  text-decoration: none;
+}
+.fb{
+  color: white;
+  text-decoration: none;
+}
+#email{
+  text-decoration: none;
+  color: white;
+}
+#cont{
+  text-decoration:none;
+  color:white;
+}
+ul#footerMediaLinks li:hover span.fb, ul#footerMediaLinks li:hover a.fb { color: #161cda; }
 ul#footerMediaLinks li:hover span.twit, ul#footerMediaLinks li:hover a.twit { color: #1DA1F2; }
 ul#footerMediaLinks li:hover span.insta, ul#footerMediaLinks li:hover a.insta { color: #ffc838; }
 ul#footerMediaLinks li:hover span.git, ul#footerMediaLinks li:hover a.git { color: #f1502f; }
